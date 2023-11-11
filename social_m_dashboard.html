@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .social-media-feed {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .feed-item {
+            text-align: center;
+        }
+
+        .feed-item img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .checkbox-container {
+            margin-top: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Social Media Dashboard</h1>
+
+    <div class="social-media-feed">
+        <div class="feed-item">
+            <img src="path/to/facebook-icon.png" alt="Facebook Icon">
+            <p>Facebook</p>
+            <div class="checkbox-container">
+                <input type="checkbox" id="facebookCheckbox">
+                <label for="facebookCheckbox">Show Feed</label>
+            </div>
+        </div>
+
+        <div class="feed-item">
+            <img src="path/to/twitter-icon.png" alt="Twitter Icon">
+            <p>Twitter</p>
+            <div class="checkbox-container">
+                <input type="checkbox" id="twitterCheckbox">
+                <label for="twitterCheckbox">Show Feed</label>
+            </div>
+        </div>
+
+        <div class="feed-item">
+            <img src="path/to/instagram-icon.png" alt="Instagram Icon">
+            <p>Instagram</p>
+            <div class="checkbox-container">
+                <input type="checkbox" id="instagramCheckbox">
+                <label for="instagramCheckbox">Show Feed</label>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
